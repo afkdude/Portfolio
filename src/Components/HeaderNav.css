@@ -1,0 +1,28 @@
+.mainHeader{
+  border-bottom: 1px solid red;
+  border-right: 1px solid red;
+}
+.iconsSub{
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.sticky {
+  position: fixed;
+ transition: top 0.3s ease-in-out;
+  top: 0; 
+  left: 0;
+  width: 100%; /* Make sure it spans the full width */
+  z-index: 100; /* Ensure it's on top of other elements */
+  /* Add any other styling you want for the sticky navbar (e.g., background color, shadow) */
+  
+}
+
+
+#nav-bar { 
+  /* ... your existing styles ... */
+  transition: top 0.5s ease-in-out; /* Add transition to the initial navbar as well */
+}
+html {
+  scroll-behavior: smooth;
+}
