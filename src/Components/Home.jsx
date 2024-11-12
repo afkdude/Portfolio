@@ -10,6 +10,15 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import cv from "../assets/Shubham_Amrawat_Update_Resume_latest.pdf";
 
+import javaImg from "../assets/Icons/java.png";
+import cPlusPlusImg from "../assets/Icons/c-.png";
+import pythonImg from "../assets/Icons/python.png";
+import htmlImg from "../assets/Icons/html-5.png";
+import cssImg from "../assets/Icons/css.png";
+import jsImg from "../assets/Icons/js.png";
+import reactImg from "../assets/Icons/react.png";
+import figmaImg from "../assets/Icons/figma.png";
+
 function Home() {
   const [time, setTime] = useState(new Date());
 
@@ -81,14 +90,14 @@ function Home() {
         <div className="skills basis-[55%] rounded-[25px] bg-[#171515] flex flex-col gap-4 items-center justify-around">
           <h1 className="text-[35px] font-jim text-white">Skills</h1>
           <div className="skillsIcon flex-wrap flex gap-4 justify-evenly">
-            <img src="src/assets/Icons/java.png" alt="Java" />
-            <img src="src/assets/Icons/c-.png" alt="C++" />
-            <img src="src/assets/Icons/python.png" alt="Python" />
-            <img src="src/assets/Icons/html-5.png" alt="HTML5" />
-            <img src="src/assets/Icons/css.png" alt="CSS" />
-            <img src="src/assets/Icons/js.png" alt="JavaScript" />
-            <img src="src/assets/Icons/react.png" alt="React" />
-            <img src="src/assets/Icons/figma.png" alt="Figma" />
+            <img src={javaImg} alt="Java" />
+            <img src={cPlusPlusImg} alt="C++" />
+            <img src={pythonImg} alt="Python" />
+            <img src={htmlImg} alt="HTML5" />
+            <img src={cssImg} alt="CSS" />
+            <img src={jsImg} alt="JavaScript" />
+            <img src={reactImg} alt="React" />
+            <img src={figmaImg} alt="Figma" />
           </div>
         </div>
       </div>
